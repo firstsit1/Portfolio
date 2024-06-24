@@ -1,0 +1,36 @@
+.pricelist {
+    padding-top: 60px;
+    &__wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 370px);
+        grid-template-rows: repeat(3, minmax (45px, auto));
+        justify-content: space-between;
+        row-gap: 15px;
+        padding: 60px 50px 0 50px;
+    }
+    &__item {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__name {
+        position: relative;
+        font-weight: 700;
+        font-size: 14px;
+        @include before_circle;
+        &::before {
+            width: 15px;
+            height: 15px;
+            top: 2px;
+            left: -25px;
+        }
+    }
+    &__price {
+        font-weight: 700;
+        font-size: 14px;
+    }
+    &__descr {
+        font-weight: 500;
+        font-size: 12px;
+        margin-top: 5px;
+    }
+}
