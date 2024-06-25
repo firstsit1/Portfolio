@@ -4,7 +4,7 @@
         padding: 0 35px 0 52px;
         display: grid;
         grid-template-columns: 400px 585px;
-        justify-content: space-between;
+        column-gap: 68px;
     }
     &__photo {
         img {
@@ -45,7 +45,7 @@
         display: grid;
         grid-template-columns: repeat(2, 280px);
         grid-template-rows: 45px 190px 45px;
-        justify-content: space-between;
+        column-gap: 25px;
         row-gap: 28px;
     }
     &__input {
@@ -98,5 +98,11 @@
         font-weight: 700;
         font-size: 14px;
         line-height: 21px;
+    }
+    &__social {
+        img {
+            width: 30px;
+            height: 30px;
+        }
     }
 }
