@@ -25,6 +25,10 @@ body {
     background-color: $main-color;
     margin: 25px auto 0 auto;
 }
+
+.img-of {
+    object-fit: cover;
+}
 @import 'blocks/hamburger';
 @import 'blocks/sidepanel';
 @import 'blocks/menu';

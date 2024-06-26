@@ -47,13 +47,17 @@
             grid-template-columns: 400px 400px;
         }
         &__form {
-            grid-template-columns: repeat(2, 200px);
+            grid-template-columns: repeat(2, 180px);
         }
         &__input {
             padding-left: 10px;
             &:nth-child(1) {
                 padding-left: 0;
             }
+        }
+        &__triggers {
+            grid-template-columns: 150px 200px;
+            column-gap: 35px;
         }
     }
 }
@@ -145,7 +149,7 @@
         &__wrapper {
             grid-template-columns: 320px 400px;
             padding-left: 0;
-            column-gap: 40px;
+            column-gap: 45px;
         }
         &__form {
             grid-template-columns: repeat(2, 150px);
@@ -174,6 +178,10 @@
             img {
                 height: 100%;;
             }
+        }
+        &__triggers {
+            grid-template-columns: 150px 150px;
+            column-gap: 10px;
         }
     }
 }
@@ -267,11 +275,11 @@
             margin: 0 auto;
         }
         &__wrapper {
-            grid-template-columns: 300px;
+            grid-template-columns: 310px;
             padding: 0 140px;
         }
         &__form {
-            grid-template-rows: 45px 190px 0;
+            grid-template-rows: 45px 190px 45px;
         }
         &__photo {
             width: 300px;
@@ -311,12 +319,15 @@
         }
         &__btn {
             display: block;
-            margin-left: 90px;
             width: 120px;
             height: 40px;
             font-size: 12px;
             line-height: 13px;
             padding: 0;
+        }
+        &__triggers {
+            grid-template-columns: 150px 160px;
+            column-gap: 40px;
         }
     }
 }
@@ -497,12 +508,15 @@
         }
         &__btn {
             display: block;
-            margin-left: 90px;
             width: 120px;
             height: 40px;
             font-size: 12px;
             line-height: 13px;
             padding: 0;
+        }
+        &__triggers {
+            grid-template-columns: 130px 160px;
+            column-gap: 60px;
         }
     }
 }
